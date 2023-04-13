@@ -13,7 +13,7 @@ export const Formulario = () => {
       return;
     }
 
-    consultarClima();
+    consultarClima(busqueda);
   };
 
   return (
