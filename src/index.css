@@ -1,7 +1,7 @@
 body {
   font-family: "Hubballi", cursive;
   background-color: #f1f5f9;
-  font-size: 1.6rem;
+  font-size: 1.3rem;
 }
 header {
   background-color: #0ea5e9;
@@ -50,18 +50,19 @@ form {
 }
 .campo input,
 .campo select {
-  all: unset;
+  /* all: unset; */
   border: 1px solid #cbd5e1;
   width: 100%;
   border-radius: 1rem;
-  padding: 0.5rem;
+  padding: 1rem 1rem;
+  background-color: #f1f5f9;
 }
 
 input[type="submit"] {
   background-color: #0ea5e9;
   margin: 2rem auto 0 auto;
-  display: block;
-  padding: 1rem 3rem;
+  /* display: block; */
+  padding: 1rem;
   color: white;
   text-transform: uppercase;
   font-family: "Inter", sans-serif;
@@ -69,12 +70,9 @@ input[type="submit"] {
   border: none;
   width: 100%;
   transition: background-color 0.3s ease;
+  cursor: pointer;
 }
-@media (min-width: 768px) {
-  input[type="submit"] {
-    max-width: 400px;
-  }
-}
+
 input[type="submit"]:hover {
   background-color: #0369a1;
 }
